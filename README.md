@@ -4,6 +4,8 @@ Welcome to my repository!
 
 This is my first homework of [STAT 545A][1]. 
 
+This repo contains a [README](https://github.com/STAT545-UBC-students/hw01-xiaoyuanf/blob/master/README.md) file, and a [hw01_gapminder](https://github.com/STAT545-UBC-students/hw01-xiaoyuanf/blob/master/hw01_gapminder.md) file which explores the database **gapminder** a bit.
+
 ## About me
 
 My name is Xiaoyuan. I am a [iSchool][2] student. I have worked as a journalist for several years and just quit last month. It feels so good to go back to school after years of frustrating work :joy:
