@@ -1,0 +1,36 @@
+---
+title: "hw01_gapminder"
+output: 
+  html_document: 
+    keep_md: yes
+---
+
+```{r}
+install.packages("gapminder")
+```
+
+```{r}
+library(gapminder)
+str(gapminder)
+```
+
+```{r}
+install.packages(tidyverse)
+library(tidyverse)
+```
+
+```{r}
+as_tibble(gapminder)
+```
+
+```{r}
+plot(pop ~ year, gapminder)
+```
+```{r}
+hist(gapminder$gdpPercap)
+```
+```{r}
+summary(gapminder$pop)
+```
+
+
