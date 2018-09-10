@@ -2,11 +2,11 @@
 title: "hw01_gapminder"
 output: 
   html_document: 
-    keep_md: yes
+    keep_md: true
 ---
 
 ```{r}
-install.packages("gapminder")
+install.packages("gapminder", repos = "http://cran.us.r-project.org")
 ```
 
 ```{r}
@@ -15,7 +15,7 @@ str(gapminder)
 ```
 
 ```{r}
-install.packages(tidyverse)
+install.packages("tidyverse", repos = "http://cran.us.r-project.org")
 library(tidyverse)
 ```
 
